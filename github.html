@@ -8,9 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Full Width Pics - Start Bootstrap Template</title>
-    <!-- Favicon-->
-    <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+    <title>Github | LearnTheWeb</title>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -33,6 +31,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link text-warning" href="index.html">Main Menu</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="html.html">HTML Basics</a>
             </li>
             <li class="nav-item">
@@ -51,49 +52,107 @@
         </div>
       </div>
     </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="
+        background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+      "
+    >
+      <div class="text-center my-5">
+        <img
+          class="img-fluid rounded-circle mb-4"
+          src="img/github_icon-icons.com_60477.ico"
+          alt="..."
+        />
+        <h1 class="text-white fs-3 fw-bolder">Github</h1>
+      </div>
+    </header>
     <!-- Content section-->
-    <section class="py-5">
+    <section class="py-5 bg-dark text-light">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>Third Topic Is Here</h2>
+            <h2>What is Github?</h2>
             <p class="lead">
-              A single, lightweight helper class allows you to add engaging,
-              full width background images to sections of your page.
+              GitHub is a hosting platform for version control and collaboration on coding projects. 
             </p>
             <p class="mb-0">
-              The universe is almost 14 billion years old, and, wow! Life had no
-              problem starting here on Earth! I think it would be inexcusably
-              egocentric of us to suggest that we're alone in the universe.
+              It lets you and others work together on projects from anywhere and at any time. These basics teach you GitHub essentials. Click the button below for Github's main page.
             </p>
+            <br>
+            <a href="https://github.com/" target="_blank" class="btn btn-lg btn-primary">GitHub</a>
           </div>
         </div>
       </div>
     </section>
     <!-- Image element - set the background image for the header in the line below-->
-    <div
-      class="py-5 bg-image-full"
-      style="
-        background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
-      "
-    >
+    <div class="carouselContainer">
       <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-      <div style="height: 20rem"></div>
+      <div class="container">
+        <style>
+          .carouselContainer {
+            margin-top: 2rem;
+          }
+          .specimg {
+            background-image: url(img/codeimgresized-min.jpg);
+            filter: blur(3px);
+          }
+          .spectext {
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          }
+        </style>
+        <!-- CAROUSEL!!! -->
+        <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/githubeximg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3 class="spectext text-light">Whats an IDE?</h3>
+                <a href="ide.html" class="btn btn-lg btn-dark">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/githubeximg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3 class="spectext text-light">Git</h3>
+                <a href="git.html" class="btn btn-lg btn-dark">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/githubeximg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3 class="spectext text-light">Git Workflow</h3>
+                <a href="git_workflow.html" class="btn btn-lg btn-dark">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/githubeximg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3 class="spectext text-light">Repositories</h3>
+                <a href="repos.html" class="btn btn-lg btn-dark">Learn Here!</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
     </div>
     <!-- Content section-->
     <section class="py-5">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>Engaging Background Images</h2>
-            <p class="lead">
-              The background images used in this template are sourced from
-              Unsplash and are open source and free to use.
-            </p>
+            <h2>Github's History</h2>
             <p class="mb-0">
-              I can't tell you how many people say they were turned off from
-              science because of a science teacher that completely sucked out
-              all the inspiration and enthusiasm they had for the course.
+              On October 19, 2007, development on the github platform started. In April 2008 the site had its official launch by developers Tom Preston-Werner, Chris Wanstrath, P. J. Hyett and Scott Chacon, after a short beta period of testing.
             </p>
           </div>
         </div>

@@ -8,9 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Full Width Pics - Start Bootstrap Template</title>
-    <!-- Favicon-->
-    <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+    <title>About The Web | LearnTheWeb</title>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -33,6 +31,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link text-warning" href="index.html">Main Menu</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="html.html">HTML Basics</a>
             </li>
             <li class="nav-item">
@@ -53,49 +54,100 @@
         </div>
       </div>
     </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="
+        background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+      "
+    >
+      <div class="text-center my-5">
+        <img
+          class="img-fluid rounded-circle mb-4"
+          src="img/laptoplogo.ico"
+          alt="..."
+        />
+        <h1 class="text-white fs-3 fw-bolder">About the Web</h1>
+      </div>
+    </header>
     <!-- Content section-->
     <section class="py-5">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>Third Topic Is Here</h2>
-            <p class="lead">
-              A single, lightweight helper class allows you to add engaging,
-              full width background images to sections of your page.
-            </p>
+            <h2>The Web</h2>
+            
             <p class="mb-0">
-              The universe is almost 14 billion years old, and, wow! Life had no
-              problem starting here on Earth! I think it would be inexcusably
-              egocentric of us to suggest that we're alone in the universe.
+              The Web is a place for all to share, build, and enjoy many diverse things, and share information around the world!
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- Image element - set the background image for the header in the line below-->
-    <div
-      class="py-5 bg-image-full"
-      style="
-        background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
-      "
-    >
+    <div class="carouselContainer">
       <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-      <div style="height: 20rem"></div>
+      <div class="container">
+        <style>
+          .carouselContainer {
+            margin-top: 2rem;
+          }
+          .specimg {
+            background-image: url(img/codeimgresized-min.jpg);
+            filter: blur(4px);
+          }
+        </style>
+        <!-- CAROUSEL!!! -->
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/webbgimg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3>Why was it Created?</h3>
+                <a href="web_created.html" class="btn btn-lg btn-secondary">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/webbgimg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3>What Does it Allow us to Do?</h3>
+                <a href="what_the_web_offers.html" class="btn btn-lg btn-secondary">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/webbgimg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3>HTTP vs HTTPS</h3>
+                <a href="http_vs_https.html" class="btn btn-lg btn-secondary">Learn Here!</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/webbgimg.jpg" class="specimg bg-image d-block w-100" alt="...">
+              <div class="carousel-caption d-block d-md-block">
+                <h3>Browsers</h3>
+                <a href="browsers.html" class="btn btn-lg btn-secondary">Learn Here!</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
     </div>
     <!-- Content section-->
     <section class="py-5">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>Engaging Background Images</h2>
-            <p class="lead">
-              The background images used in this template are sourced from
-              Unsplash and are open source and free to use.
-            </p>
+            <h2>Fun Fact</h2>
             <p class="mb-0">
-              I can't tell you how many people say they were turned off from
-              science because of a science teacher that completely sucked out
-              all the inspiration and enthusiasm they had for the course.
+              The whole world is connected by underwater cables that the internet is still dependent on to this day.
             </p>
           </div>
         </div>

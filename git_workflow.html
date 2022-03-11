@@ -36,10 +36,10 @@
               <a class="nav-link" href="html.html">HTML Basics</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="css.html">CSS Basics</a>
+              <a class="nav-link" href="css.html">CSS Basics</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="github.html">What is Github</a>
+              <a class="nav-link active" href="github.html">What is Github</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="frameworks.html">Frameworks</a>
@@ -48,56 +48,81 @@
               <a class="nav-link" href="about_the_web.html">About the Web</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-warning" href="github.html">Go Back</a>
-              </li>
+              <a class="nav-link text-warning" href="github.html">Go Back</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="
+        background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+      "
+    >
+      <div class="text-center my-5">
+        <img
+          class="img-fluid rounded-circle mb-4"
+          src="img/github_icon-icons.com_60477.ico"
+          alt="..."
+        />
+        <h1 class="text-white fs-3 fw-bolder">Github Section</h1>
+      </div>
+    </header>
     <!-- Content section-->
     <section class="py-5">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>HTML Structuring</h2>
+            <h2>What is the Git Workflow?</h2>
             <p class="lead">
-              A single, lightweight helper class allows you to add engaging,
-              full width background images to sections of your page.
+             The Git Workflow, in simple terms, is a developer developing and working on a branch of a project, then when everything is up done, merging that branch onto the main branch.The steps to do this are as followed<br>1. <code>git add --all</code> (or specific items)<br>2. <code>git commit -m "changes here"</code>. In the parentheses belongs a short message of what that push was.<br>3. <code>git push</code>. This is the final step that pushes changes to the main branch.
             </p>
             <p class="mb-0">
-              The universe is almost 14 billion years old, and, wow! Life had no
-              problem starting here on Earth! I think it would be inexcusably
-              egocentric of us to suggest that we're alone in the universe.
+              Below is a great short video explaining the Git Workflow.
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- Image element - set the background image for the header in the line below-->
-    <div
-      class="py-5 bg-image-full"
-      style="
-        background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
-      "
-    >
-      <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-      <div style="height: 20rem"></div>
-    </div>
+    <style>
+      .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+      }
+      .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <section class="bg-dark text-light border border-dark border-5">
+      <div class="container">
+        <div class="iframe-container">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/1SXpE08hvGs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
     <!-- Content section-->
-    <section class="py-5">
+    <section class="py-5 bg-dark text-light">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h2>Engaging Background Images</h2>
-            <p class="lead">
-              The background images used in this template are sourced from
-              Unsplash and are open source and free to use.
-            </p>
-            <p class="mb-0">
-              I can't tell you how many people say they were turned off from
-              science because of a science teacher that completely sucked out
-              all the inspiration and enthusiasm they had for the course.
-            </p>
+            <h2 class="text-center">Great Job Keep it Up!</h2>
           </div>
         </div>
       </div>
